@@ -21,7 +21,7 @@ public class Config {
                                                     StompSessionHandler stompSessionHandler) {
        WebSocketStompClient webSocketStompClient = new WebSocketStompClient(webSocketClient);
        webSocketStompClient.setMessageConverter(new MappingJackson2MessageConverter());
-       webSocketStompClient.connect("http://deliverarcore-env.eba-23pp8mj7.us-east-1.elasticbeanstalk.com/websocket", stompSessionHandler);
+       webSocketStompClient.connect("http://core.deliver.ar/websocket", stompSessionHandler);
        return webSocketStompClient;
    }
    @Bean
