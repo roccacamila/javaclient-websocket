@@ -24,7 +24,7 @@ public class ConnectToWebSocket extends StompSessionHandlerAdapter{
 	  @Override
 	  public void handleFrame(StompHeaders headers, Object payload) {
 		  Mensaje msg = (Mensaje) payload;
-		  System.out.println(msg.getContent());
+		  System.out.println("Contenido:"+msg.getContenido() + " - Emisor:"+msg.getEmisor());
 	   }
 	   
 	   @Override
