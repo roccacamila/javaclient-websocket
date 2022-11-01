@@ -13,7 +13,7 @@ public class ConnectToWebSocket extends StompSessionHandlerAdapter{
 	 public void afterConnected(StompSession session, StompHeaders headers) {
 		 session.subscribe("/topic/user", this);
 	     String message = "one-time message from client";
-	     session.send("/app/suscribecliente", message);
+	     session.send("/app/cliente", message); //reemplazar cliente por el nombre del módulo que corresponda
 	 }
 	 
 	 @Override
