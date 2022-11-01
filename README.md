@@ -4,7 +4,7 @@ Esta es una aplicación SpringBoot cliente para conectarse y consumir mensajes a
 
 En este ejemplo, la aplicación se está conectando como si fuera el módulo cliente. Tener en cuenta modificar la [siguiente línea](https://github.com/roccacamila/javaclient-websocket/blob/main/src/main/java/spring/ConnectToWebSocket.java#L16) y reemplazar `/cliente` por el módulo que corresponda.
 
-Dejamos como ayuda un listado con cómo quedaría modificada esta línea para cada uno de los módulos.
+Dejamos como ayuda un listado con cómo quedaría modificada esta línea para cada uno de los equipos.
 ### Listado de conexiones por módulo
 
 Módulo | Conexión
