@@ -15,7 +15,7 @@ Repartidor | `session.send("/app/repartidor", message);` |
 Franquicia | `session.send("/app/franquicia", message);` |
 Operador | `session.send("/app/operador", message);` |
 Partners | `session.send("/app/partners", message);` |
-Desarrollo interno | `session.desarrolloInterno("/app/cliente", message);` |
+Desarrollo interno | `session.send("/app/desarrolloInterno", message);` |
 Administrador | `session.send("/app/administrador", message);` |
 
 *De necesitar asistencia extra o más información, contactarse con el Team Core.*
