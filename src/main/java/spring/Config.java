@@ -21,7 +21,7 @@ public class Config {
                                                     StompSessionHandler stompSessionHandler) {
        WebSocketStompClient webSocketStompClient = new WebSocketStompClient(webSocketClient);
        webSocketStompClient.setMessageConverter(new MappingJackson2MessageConverter());
-       webSocketStompClient.connect("http://core.deliver.ar/websocket", stompSessionHandler);
+       webSocketStompClient.connect("http://core.deliver.ar/cliente", stompSessionHandler); //reemplazar cliente por el nombre del módulo que corresponda
        return webSocketStompClient;
    }
    @Bean
